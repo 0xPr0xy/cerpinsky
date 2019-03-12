@@ -32,7 +32,7 @@ class CerPinsky: SessionDelegate {
                               serverTrustPolicyManager: policyManager)
     }()
 
-    var delegate: ChallengeResultDelegate?
+    weak var delegate: ChallengeResultDelegate?
     
     
     /// Initialize CerPinsky with policies
